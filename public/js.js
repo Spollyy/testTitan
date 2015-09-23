@@ -1,0 +1,10 @@
+$(document).ready(function(){
+   $('#reg').click(function(){
+       $('.modal_info').removeClass('active');
+       $('.modal_registration').addClass('active');
+   });
+   $('#info').click(function(){
+       $('.modal_registration').removeClass('active');
+       $('.modal_info').addClass('active');
+   });
+});
